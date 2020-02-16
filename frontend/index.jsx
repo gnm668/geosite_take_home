@@ -5,13 +5,13 @@ import Root from './components/root';
 import {logoutUser} from './actions/session_actions'
 
 //test
-import {
-    fetchRequests,
-    fetchRequest,
-    createRequest,
-    updateRequest,
-    deleteRequest,
-} from './util/requests_api_util';
+// import {
+//     fetchRequests,
+//     fetchRequest,
+//     createRequest,
+//     updateRequest,
+//     deleteRequest,
+// } from './util/requests_api_util';
 //test
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -30,17 +30,17 @@ document.addEventListener('DOMContentLoaded', () => {
         store = configureStore();
     }
     //test
-    window.fetchRequests = fetchRequests;
-    window.fetchRequest = fetchRequest;
-    window.createRequest = createRequest;
-    window.updateRequest = updateRequest;
-    window.deleteRequest = deleteRequest;
+    // window.fetchRequests = fetchRequests;
+    // window.fetchRequest = fetchRequest;
+    // window.createRequest = createRequest;
+    // window.updateRequest = updateRequest;
+    // window.deleteRequest = deleteRequest;
 
-    window.getState = store.getState;
-    window.dispatch = store.dispatch;
-    window.store = store;
-    window.store.getState = store.getState;
-    window.logoutUser = logoutUser;
+    // window.getState = store.getState;
+    // window.dispatch = store.dispatch;
+    // window.store = store;
+    // window.store.getState = store.getState;
+    // window.logoutUser = logoutUser;
     //test
 
     ReactDOM.render(<Root store={store} />, root);
