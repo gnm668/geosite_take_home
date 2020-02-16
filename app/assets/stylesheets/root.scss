@@ -1,0 +1,54 @@
+// Place all the styles related to the root controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+    background-color: rgb(53, 53, 53);
+}
+
+* {
+    color: white;
+    font-size: 14px;
+}
+
+.request-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.interface-container {
+    display: flex;
+    justify-content: center;
+}
+
+.request {
+    display: flex;
+    justify-content: center;
+}
+
+.get, .post, .delete {
+    margin-right: 10px;
+}
+
+.id, .type, .time {
+    margin-right: 20px;
+}
+
+.id p, .type p, .time p, .comment p {
+    color: rgb(170, 0, 0)
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+}
+
+.cpu { 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.interface-container input {
+    width: 75px;
+}
+
